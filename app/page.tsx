@@ -91,7 +91,7 @@ export default function Home() {
                   <Settings className="h-5 w-5" />
                 </Link>
                 <div className="pl-2 border-l border-border h-8 flex items-center">
-                  <UserButton afterSignOutUrl="/" />
+                  <UserButton />
                 </div>
               </>
             ) : (
